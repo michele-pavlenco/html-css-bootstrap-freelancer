@@ -1,0 +1,25 @@
+.debug{
+    border: 1px solid black;
+}
+class*col-{
+    flex: 1 0 auto;
+}
+header{
+    background-color: rgb(33, 47, 63);
+}
+.avatar_mp{
+    background-color: rgb(32, 177, 138);
+}
+.line_mp{
+    width: 100px;
+    height: 1px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 10px;
+
+}
+.fa-star{
+    color: white;
+    font-size: 20px;
+    
+}
