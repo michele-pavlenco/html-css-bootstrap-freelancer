@@ -66,14 +66,61 @@ header  nav{
   font-size: 13px;
   padding: 30px;
 }
-#exampleFormControlTextarea1.border_mp{
+/* .img-warpper{
+    position:relative;
+    
+}
+.img-warpper .layover_mp{
+    position: absolute;
+     width: 100%;
+    height: 100%; 
+    background-color: rgba(26, 188, 156, 0.5);
+}
+.layover_mp i.fa-plus{
+    position: absolute;
+    top: 100% ;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+} */
+.img-wrapper{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.layover_mp{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.5);
+    overflow: hidden;
+    display: none;
+    
+}
+.img-wrapper i.fa-plus{
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: none;
+}
+
+
+
+
+
+
+#border_mp{
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
+    border-radius: 0px;
 }
-.form-control{
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
-    !important
+#botton_green_mp{
+    background-color: hsl(168deg 76% 42%);
+    border:1px solid white;
 }
+
+
