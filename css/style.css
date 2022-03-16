@@ -27,6 +27,7 @@ header  nav{
   color: white;
   border: 2px solid white;
   margin-top: 10px;
+  border-radius: 10px;
 }
 .line_star1 .fa-star {
   color: white;
@@ -38,6 +39,7 @@ header  nav{
   color: hsl(210deg 29% 24%);
   border: 2px solid hsl(210deg 29% 24%);
   margin-top: 10px;
+  border-radius: 10px;
 }
 .line_star2 .fa-star {
   color: hsl(210deg 29% 24%);
@@ -66,24 +68,6 @@ header  nav{
   font-size: 13px;
   padding: 30px;
 }
-/* .img-warpper{
-    position:relative;
-    
-}
-.img-warpper .layover_mp{
-    position: absolute;
-     width: 100%;
-    height: 100%; 
-    background-color: rgba(26, 188, 156, 0.5);
-}
-.layover_mp i.fa-plus{
-    position: absolute;
-    top: 100% ;
-    left: 100%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color: white;
-} */
 .img-wrapper{
     position: relative;
     overflow: hidden;
@@ -104,14 +88,12 @@ header  nav{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-size: 50px;
     display: none;
 }
-
-
-
-
-
-
+.img-wrapper:hover .layover_mp,.img-wrapper i.fa-plus{
+    display: block;
+} 
 #border_mp{
     border-top: 0px;
     border-right: 0px;
